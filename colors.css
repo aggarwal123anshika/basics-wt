@@ -1,0 +1,23 @@
+body {
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color: 9d8189;
+    background-color: #32d732;
+}
+article{
+    background-color: #6f6ffb;
+    color:white;
+    /* padding: 0px; */
+    margin-left: 350px;
+    display: flex;
+    font-size:40px;
+    width:300px;
+    border-radius: 5%;
+    height:200px;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
