@@ -1,0 +1,28 @@
+main {
+    border:2px solid black;
+    /* border-radius: 5%; */
+    width:50%;
+    /* % , vw , vh , px , em , rem */
+
+    /* width:50vw; */
+}
+
+section {
+    border:4px dotted rgb(98, 155, 12);
+    width:70vw;
+}
+/* html {
+    font-size:1em; /* 16px */
+/* } */
+
+body {
+    font-size:2em; /* 32px */
+}
+header {
+    font-size:2em;
+}
+
+h2{
+    /* font-size:30px;  we can use here also 2em because 1em is equal to the font size of the parent element */
+    font-size:4rem;
+}

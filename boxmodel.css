@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+div {
+    border:5px solid black;
+    width:15%;
+    height:100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color:rgb(32, 6, 230);
+    padding:6px;
+    margin:50px 50px 70px 450px;
+    background-color: rgba(219, 166, 146, 0.749);
+}

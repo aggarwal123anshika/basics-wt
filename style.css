@@ -1,0 +1,21 @@
+p {
+    text-align: justify;
+    text-indent:60px;
+    letter-spacing: 0.7px;
+    word-spacing: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    color:rgb(232, 102, 124);
+    background-color: black;
+    width:70%;
+    text-decoration-style: wavy;
+    /* text-decoration: underline; */
+    /* text-decoration-color: rgb(12, 223, 93); */
+    font-family:cursive;
+}
+a {
+    text-decoration: underline;
+    text-decoration-color: rgb(95, 6, 178);
+    text-decoration-style: wavy;
+}
