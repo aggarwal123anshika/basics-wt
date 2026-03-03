@@ -1,0 +1,51 @@
+*{
+    padding:0;
+    margin:0;
+}
+.container {
+    height:600px;
+    width:600px;
+    background-color: aquamarine;
+}
+.box {
+    color:white;
+    width:100px;
+    height:100px;
+    /* background-color: black; */
+}
+/* static is  default position */
+.static {
+    position:static;
+    background-color: black;
+}
+
+/* relative position is basically depends on its parent called container example:container position */
+.relative {  
+    position: relative;
+    background-color: brown;
+     /* top:50px; */
+    /* left:100px;  */
+}
+/* absolute position is depends on parent's root element called html */
+.absolute {
+    background-color: blue;
+    position:absolute;
+    top:210px;
+    bottom:0;
+}
+/* fixed means it is fixed in all positions */
+.fixed {
+    background-color: salmon;
+    position:fixed;
+    top:0;
+    left:100px;
+}
+.sticky {
+    background-color: chartreuse;
+    position:sticky;
+    top:320px;
+    /* left:10px; */
+}
+.blankspace {
+    height:400vh;
+}
