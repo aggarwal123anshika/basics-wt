@@ -1,0 +1,53 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height : 300px;
+    border : 2px solid red;
+    display: flex;
+
+    /* row(default), row-reverse, column , column-reverse*/
+    
+    flex-direction: row;
+
+    /* wrap, nowrap(default) , wrap-reverse */
+    /* flex-wrap : wrap;  */
+
+    /* gap:10px;  */
+    /* //works as a row-gap and column-gap both */
+
+    /* row-gap:10px;
+    column-gap: 10px; */
+
+    justify-content:space-around;
+    /* flex-start(default), flex-end, center, space-between, space-around, space-evenly */
+    /* //works as a justify-content and align-items both */
+
+    flex-flow: row; 
+    /* //works as a flex-direction and flex-wrap both */
+
+    align-items:center;
+    /* start from the screen or top of the container */
+
+    align-content:center;
+
+}
+.box {
+    border : 2px solid green;
+    margin: 10px;
+    width: 80px;
+}
+#box-1 {
+    order:1;
+    /* flex-grow:1; */
+    /* flex-shrink: 2; */
+}
+#box-4 {
+    /* order:5; */
+    /* flex-grow:2; */
+    flex-shrink: 4;
+    align-self: flex-start;
+}
