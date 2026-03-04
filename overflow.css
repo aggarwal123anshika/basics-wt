@@ -1,0 +1,31 @@
+.container {
+    /* height:400px;
+    width:400px;
+    border:2px solid red; */
+    /* overflow:visible; //default value of overflow */
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* /* overflow: auto; */
+    text-align: justify; 
+
+}
+.subcontainer {
+    overflow: auto;
+}
+.img1 {
+    height:150px;
+    width:200px;
+    float:right;
+}
+
+.img2 {
+    height:150px;
+    width:200px;
+    float:left;
+}
+.p1 {
+    clear:right;
+}
+.p2 {
+    clear:both;
+}
